@@ -19,8 +19,8 @@ import openpyxl
 
 #================================================= AWS S3 CONNECTION ===================================================
 
-access_key_ID ='AKIAXSF52DIAIYVY3EOU'
-secret_access_key ='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'
+access_key_ID =''
+secret_access_key =''
 bucket_name = 'zainprojects'
 upload_file_key = 'COVID_Analysis/Excel_Documents/'
 
@@ -355,7 +355,7 @@ def render_content(country):
 #============================================= GRAPH MAP ===============================================================
 
 
-access_token = 'pk.eyJ1IjoiemFpbmVpc2EiLCJhIjoiY2tlZWg0MXJvMGcwZzJyb3k1OXh0Ym55aiJ9.0SJ_VBRVxyWd6SmbdUwmKQ'
+access_token = ''
 
 @app.callback(Output('Map', 'figure'),
 
