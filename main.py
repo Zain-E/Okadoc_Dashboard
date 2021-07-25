@@ -195,7 +195,7 @@ app.layout = html.Div([
                                     html.Hr(),
 
                                     dbc.Row([
-                                        dbc.Col(html.A(href='https://github.com/Zain-E/BARTS_COVID_Dashboard',
+                                        dbc.Col(html.A(href='https://github.com/Zain-E/Okadoc_Dashboard/blob/master/main.py',
                                                        children=html.Img(src='data:image/png;base64,{}'.format(
                                                            encoded_image_Git.decode()), width=60, height=60,
                                                            style={'vertical-align': 'middle'}),
